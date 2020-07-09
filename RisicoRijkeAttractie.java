@@ -6,7 +6,7 @@ void draaien() {
 		keuren(kaartjes);
 		System.out.println("Deze attractie draait nu: " + naam);
 		kaartjes++;
-		omzet += prijs;
+		omzetBerekenen();
 		
 	}
 	

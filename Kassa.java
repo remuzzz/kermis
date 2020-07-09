@@ -1,4 +1,5 @@
 
 public class Kassa {
-double omzet;
+	static double omzet;
+	static int kaartjes;
 }

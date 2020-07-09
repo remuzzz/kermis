@@ -1,4 +1,5 @@
 
-public interface Gokattractie {
-	void kansSpelBelastingBetalen();
+interface Gokattractie {
+	default void kansSpelBelastingBetalen() {}
+
 }
