@@ -5,6 +5,7 @@ public class Attractie {
 	String naam;
 	double prijs;
 	int kaartjes;
+	int onderhoudsinterval;
 	boolean GokAttractie;
 	double omzet;
 	double belastingpotje;
@@ -27,7 +28,7 @@ public class Attractie {
 			return attracties;
 	}
 	
-	void draaien() {
+	void draaien() throws Exception {
 		//keuren(kaartjes);
 		System.out.println("Deze attractie draait nu: " + naam);
 		kaartjes++;
@@ -61,7 +62,7 @@ public class Attractie {
 	}
 	void opstellingsKeuring() 	{
 	}
-	void onderhoudsBeurt() {
+	void monteur() {
 	}
 
 }

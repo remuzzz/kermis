@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class kermisMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {	
 		Attractie attractie = new Attractie(); // attracties worden aangemaakt
 		ArrayList<Attractie> attracties = new ArrayList<Attractie>(); 
 		attracties = attractie.init_attractie();
@@ -37,6 +37,10 @@ public class kermisMain {
 			}
 			if (input2.equals("k")) {
 				attracties.get(i).kaartjesTonen();
+			}
+			if (input2.equals("m")) {
+				
+				attracties.get(i).monteur();
 			}
 
 		}
